@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Stadium Image with Logo and Name Overlay -->
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="300dp">
@@ -53,7 +52,6 @@
             </LinearLayout>
         </FrameLayout>
 
-        <!-- Club Info -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -73,7 +71,6 @@
                 android:lineSpacingExtra="2dp" />
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Buttons -->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btnClubHistory"
             android:layout_width="match_parent"

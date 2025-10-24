@@ -18,7 +18,6 @@ class HistoryActivity : AppCompatActivity() {
 
         binding.tvHistoryTitle.text = "$clubName's History"
 
-        // History content - customize this based on QPR FC history
         val historyContent = """
 Queens Park Rangers Football Club, commonly known as QPR, was founded in 1882 when Christchurch Rangers and St Jude's Institute FC merged to form Queens Park Rangers.
 

@@ -19,7 +19,6 @@ class PlayerAdapter(
             binding.tvPlayerName.text = player.name
             binding.tvPlayerPosition.text = player.position
 
-            // Set background color based on position
             val backgroundColor = when {
                 player.position.contains("Goalkeeper", ignoreCase = true) ->
                     Color.parseColor("#FFEB3B") // Yellow
@@ -37,7 +36,6 @@ class PlayerAdapter(
 
             binding.cardPlayer.setCardBackgroundColor(backgroundColor)
 
-            // Set click listener
             binding.cardPlayer.setOnClickListener {
                 onPlayerClick(player)
             }
